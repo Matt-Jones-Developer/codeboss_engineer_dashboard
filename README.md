@@ -1,6 +1,7 @@
 <!-- Readme top-->
 <a name="readme-top"></a>
 
+<!-- Project shields -->
 <span style="display:block" align="center" class="shields">
 
 [![Stargazers][stars-shield]][stars-url]
@@ -10,18 +11,19 @@
 
 </span>
 
+<!-- Readme Header -->
 <div align="center">
-	<img src="../assets/images/header.png" alt="header-image" width="800" height="200">
+	<img src="./src/img/screenshots/header.png" alt="header-image" width="800" height="150">
 </div>
 <br>
 
-
+<!-- project title -->
 #
 <h2 align="center">"CodeBoss: The Ultimate Tech Manager's Team Builder CLI program</h2>
 
 
 <div align="center">
-<h3>"CODEBOSS README"</h3>
+<p>A handy command line interface application that allows a team manager to build a team of employees, edit, view or remove them and finally render them to an html page and a data.json.</p>
 <a href="https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard/"><strong>Explore the docs »</strong></a>
 <br />
 <br />
@@ -49,6 +51,7 @@
 * [Questions](#questions)
 #
 
+<!-- about the project -->
 ## Project Summary
 
 CodeBoss - an exciting CLI program for tech managers to build a team of employees that saves to an html file and a json for company data use. 
@@ -56,11 +59,13 @@ CodeBoss - an exciting CLI program for tech managers to build a team of employee
 Makes use of classes, inheritance, inquirer prompts, a custom main menu interface with built in ascii and typewriter functions, as well as manager tools and utility function scripts.  
 
 Easily build a team of employees that are editable and will output an html file and json data file to the output folder.
-
+#
 ### Motivation
-I wanted to create a program that made it easy for team managers to quickly generate an html web page and a bonus json file for data collecting that was enjoyable to use, fully interactive and rendered the team to file. 
 
+I wanted to create a program that made it easy for team managers to quickly generate an html web page and a bonus json file for data collecting that was enjoyable to use, fully interactive and rendered the team to file. 
+#
 ### Challenges
+
 Initially I wanted to add setters and getters to each class, that allowed containment of all the various functions relevant to each employee type.  
 
 I then decided to keep the classes as blueprints only, then create a createEmployee function that dealt with prompts and instantiated each team member as they were created.  
@@ -70,8 +75,9 @@ I developed clean modularised scripts that dealt with all the functions required
 I ran out of time so these other features have been ice-boxed and will be developed in future builds.  I learnt a lot about async await, how to build a menu interface, particularly new Promise, resolve and reject, setting timeouts and I was also quite proud of the displayMessage functions that allow the logs to not interfere with the main menu and vice versa. 
 
 Really enjoyed overcoming all of the issues and confusion along the way and feel that my final scripts show my Javascript skills are starting to level up.
-
+#
 ### Unique Selling Points
+
 My builds USP’s are that the interface is advanced, fun to use and has some nice touches such as ascii titles (each are their own function calls), the type to text function and the professional quality of the rendered html file.  
 
 The addition of a json file that would be useful for company data and processing for larger teams is a nice feature too, however I still have work to do on that!  My icebox for this project has plenty of future updates incoming!
@@ -95,10 +101,38 @@ Your final html and json files are written to the output folder.
 
 Quickly build and manage your team via a main menu interface.  Ability to change manager, edit, view or remove team and build to write the team to an html and json file.  
 
-View the screenshots below:
 
-![Product Screenshot](../src/img/codeboss_html.gif)
-![Product Screenshot](../src/img/screenshot.png)
+View the CLI program screenshots below:
+
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+
+[![Product Name Screen Shot][product-screenshot-2]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+
+[![Product Name Screen Shot][product-screenshot-3]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+
+[![Product Name Screen Shot][product-screenshot-4]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+
+A demo of the rendered output file:
+<br>
+<!-- video of finished product -->
+<div align="center">
+  <img src="src/img/screenshots/codeboss_html.gif" width="800" height="480" />
+</div>
+
+Screenshot of the programs output with
+fully responsive design:
+
+![tablet-screenshot1]
+
+<!-- centered images -->
+<div align="center">
+<!-- ![mobile-screenshot1] ![mobile-screenshot2] -->
+  <img src="./src/img/screenshots/mobile_screenshot_1.png">
+  <img src="./src/img//screenshots/mobile_screenshot_2.png">
+</div>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Tests
 
@@ -124,12 +158,27 @@ For more information, please visit this link: [Apache 2.0](https://choosealicens
 ## Questions
 
 For questions or concerns, please contact [matt-jones-developer](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard) via Github.
+
 ###  Other contacts:
 
 You can also reach me via the following: 👻💬
 
 📪 [Email](glitchyghost81@gmail.com) · [LinkedIn](https://www.linkedin.com/in/matt-jones-zx81) · [Twitter](glitchy81) · [Slack](mattjones) · [Instagram](glitchy) 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#
+
+## Deployment & Repo links:
+
+Project Repo Link: [https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+
+Deployed Project Link: [https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard](N/A)
+
+#
+<br>
+<h3>How was this readme created?!
+<h3 align="left">Built with <a href="https://github.com/Matt-Jones-Developer/speedme_that_readme_generator/">SPEEDME</a>: The ultimate README generator!</h3>
 
 
 [stars-shield]: https://img.shields.io/github/stars/matt-jones-developer/codeboss_engineer_dashboard.svg?style=for-the-badge
@@ -141,18 +190,14 @@ You can also reach me via the following: 👻💬
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/matt-jones-zx81
 
+[product-screenshot]: ./src/img/screenshots/product_screenshot.png
+[product-screenshot-2]: ./src/img/screenshots/product_screenshot_2.png
+[product-screenshot-3]: ./src/img/screenshots/product_screenshot_3.png
+[product-screenshot-4]: ./src/img/screenshots/product_screenshot_4.png
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-#
-
-
-
-## Deployment & Repo links:
-
-Project Repo Link: [https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
-
-Deployed Project Link: [https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard](N/A)
-
+[console-output-screenshot]: ./src/img/screenshots/console_output.png
+[console-output-screenshot-2]: ./src/img/screenshots/console_output_2.png
+[tablet-screenshot1]: ./src/img/screenshots/tablet_screenshot.png
+[mobile-screenshot1]: ./src/img/screenshots/mobile_screenshot_1.png
+[mobile-screenshot2]: ./src/img/screenshots/mobile_screenshot_2.png
 
