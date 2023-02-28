@@ -175,6 +175,14 @@ Project Repo Link: [https://github.com/Matt-Jones-Developer/codeboss_engineer_da
 
 Deployed Project Link: [https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard](N/A)
 
+# 
+## Acknowledgments
+
+Thanks to my tutor Wesley Clements for educating me (in depth) about how reject and resolve work behind the scenes and how to use them in conjunction with async await - helped my ascii's and main menu play nicely! Cheers!
+
+Thanks to [Marc Hudson](https://github.com/marcahudson26) for demo'ing his version of the 'type to text' effect to me, which I then decided to steal and code my own version of (my code is however unique and achieved the same result differently!) 
+Cheers fellow peer, you're a coding legend Sir!
+
 #
 <br>
 <h3>How was this readme created?!
