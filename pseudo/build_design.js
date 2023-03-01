@@ -1,7 +1,5 @@
 // How does our system work?  // How do the components fit together?
 
-const { lookup } = require("dns")
-
 // classes:
   // unlike my previous approach, I now realise that keeping the classes bare-bone is fine 
   // Then creating constructors for each employee type is the best approach
