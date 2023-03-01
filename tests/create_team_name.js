@@ -1,5 +1,5 @@
-// I want to use this function to add a team name to the team array, before it is rendered to html.  
-// In the generateHtml.js file, I would need to add something like ${team.teamName} within a <div>:  within here:   const generatePage = team => {
+// function to add a team name to the team array
+// const generatePage = team => {
 //   ${team.teamName}
 //   return `
 // <!DOCTYPE html>
