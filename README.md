@@ -92,10 +92,49 @@ The addition of a json file that would be useful for company data and processing
 
 To use this app, you can clone the project - I will need to be accredited as it’s under an Apache license.  
 
-You must install npm, then npm init -y to then grab node (install and use nvm for this) and the install the following dependencies: node v19.7, inquirer@^8.2.5, jest, figlet, readline and url.   The app can be run by ‘node index.js’.  
+### Installation Instructions
 
-Your final html and json files are written to the output folder.
+You must install npm:
 
+```
+npm i
+```
+then initialise npm:
+
+```
+npm init -y
+```
+Next, grab Node (install and use nvm for this):
+
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+```
+```
+command -v nvm
+```
+```
+nvm install node
+```
+confirm success:
+```
+npm -v
+```
+Finally, install all the dependencies used:
+```
+npm i inquirer@^8.2.5
+```
+Repeat the last step to also install:
+```
+  "figlet": "^1.5.2",
+  "jest": "^29.4.3",
+  "moment": "^2.29.4",
+  "open": "^8.4.2",
+  "readline": "^1.3.0",
+  "url": "^0.11.0"
+```
+The app can be run by typing ‘node index.js’.  
+
+Your final html and json files are written to the output folder along with a pre-styled CSS file.
 
 ## Usage
 
@@ -136,7 +175,11 @@ fully responsive design:
 
 ## Tests
 
-Jest was used for all testing.  If you run npm run test you will see that each test for the classes will pass.  I had to find a bug in the original contributors code to allow the GitHub test to pass.
+Jest was used for all testing.  If you run:
+```
+npm run test 
+```
+You will see that each test for the classes will pass.
 
 
 ## Contributing
@@ -163,7 +206,7 @@ For questions or concerns, please contact [matt-jones-developer](https://github.
 
 You can also reach me via the following: 👻💬
 
-📪 [Email](glitchyghost81@gmail.com) · [LinkedIn](https://www.linkedin.com/in/matt-jones-zx81) · [Twitter](glitchy81) · [Slack](mattjones) · [Instagram](glitchy) 
+📪 [Email](glitchyghost81@gmail.com) · 💻 [LinkedIn](https://www.linkedin.com/in/matt-jones-zx81) · 👾 [Twitter](glitchy81) · 👻 [Slack](mattjones) · 🤡 [Instagram](glitchy) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,7 +223,7 @@ Deployed Project Link: [https://github.com/Matt-Jones-Developer/codeboss_enginee
 
 Thanks to my tutor Wesley Clements for educating me (in depth) about how reject and resolve work behind the scenes and how to use them in conjunction with async await - helped my ascii's and main menu play nicely! Cheers!
 
-Thanks to [Marc Hudson](https://github.com/marcahudson26) for demo'ing his version of the 'type to text' effect to me, which I then decided to steal and code my own version of (my code is however unique and achieved the same result differently!) 
+Thanks to [Marc Hudson](https://github.com/marcahudson26) for demo'ing his version of the 'type to text' effect to me, which I then decided to cheekily borrow and code my own version of (my code is unique and achieved the same result, differently) 
 Cheers fellow peer, you're a coding legend Sir!
 
 #
