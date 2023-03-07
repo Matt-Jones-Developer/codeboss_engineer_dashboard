@@ -48,7 +48,7 @@ body::before {
   height: 100vh;
   margin: 0;
   background-image: var(--gradient),
-    url("../src/img/trippy_moving_bg.gif");
+    url("src/img/trippy_moving_bg.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
