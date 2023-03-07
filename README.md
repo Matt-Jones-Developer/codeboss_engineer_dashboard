@@ -1,11 +1,3 @@
-<head>
-  <style>
-    body {
-      background-color: #333;
-      color: #fff;
-    }
-  </style>
-</head>
 
 <!-- Readme top-->
 <a name="readme-top"></a>
