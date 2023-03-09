@@ -116,10 +116,6 @@ a:hover {
   margin: 0;
 }
 
-.container {
-  border: 1px solid red;
-}
-
 .team-area {
   display: flex;
   flex-wrap: wrap;
@@ -189,4 +185,37 @@ a:hover {
     display: block;
     width: 370px;
   } */
+}
+
+@media (max-width: 414px) {
+
+  h1 {
+    font-size: 47px;
+  }
+  .card {
+    min-width: 300px;
+    min-height: 530px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .card {
+    margin: 1rem auto;
+    padding: 1rem;
+    min-width: 270px;
+    min-height: 480px;
+  }
+
+  .team-area {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 0;
+  }
+
 }
