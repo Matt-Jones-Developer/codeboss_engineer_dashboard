@@ -38,6 +38,10 @@
 ·
 </div>
 <br>
+<!-- gif -->
+<div align="center">
+  <img src="src/img/screenshots/code_boss_intro_loop_2.gif" width="800" height="480" />
+</div>
 
 #
 
@@ -144,18 +148,23 @@ Quickly build and manage your team via a main menu interface.  Ability to change
 
 View the CLI program screenshots below:
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+<div align="center">
 
-[![Product Name Screen Shot][product-screenshot-2]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+  [![Product Name Screen Shot][product-screenshot]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
 
-[![Product Name Screen Shot][product-screenshot-3]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+  [![Product Name Screen Shot][product-screenshot-2]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
 
-[![Product Name Screen Shot][product-screenshot-4]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+  [![Product Name Screen Shot][product-screenshot-3]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
 
-A demo of the rendered output file:
+  [![Product Name Screen Shot][product-screenshot-4]](https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard)
+
+</div>
+<br>
+
 <br>
 <!-- video of finished product -->
 <div align="center">
+  <h2>A demo of the rendered output file:</h2>
   <img src="src/img/screenshots/codeboss_html.gif" width="800" height="480" />
 </div>
 
